@@ -18,7 +18,7 @@ public class TestGenClass {
 
 	@Test
 	void test() {
-		Assertions.assertEquals(10, cc.method1());
+		Assertions.assertEquals(5, cc.method1());
 	}
 
 	@AfterAll
