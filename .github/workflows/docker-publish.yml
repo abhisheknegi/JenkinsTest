@@ -30,6 +30,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Checkout remote repository
+        uses: actions/checkout@v2
         with:
           repository: abhisheknegi/ActionsDemo
 
